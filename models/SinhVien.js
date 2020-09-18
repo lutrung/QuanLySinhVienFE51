@@ -13,4 +13,7 @@ var SinhVien = function(masv,tensv,email,loaisinhvien,diemtoan,diemly,diemhoa,di
     this.xepLoai = function(){
         return 'yeu'
     }
+    this.hocLuc = function(){
+        return 'tốt'
+    }
 }
