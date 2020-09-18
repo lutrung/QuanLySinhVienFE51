@@ -10,5 +10,7 @@ var SinhVien = function(masv,tensv,email,loaisinhvien,diemtoan,diemly,diemhoa,di
     this.diemTrungBinh = function(){
         return (Number(this.diemToan) + Number(this.diemLy) + Number(this.diemHoa)) / 3
     }
-    
+    this.xepLoai = function(){
+        return 'gioi'
+    }
 }
