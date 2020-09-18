@@ -1,0 +1,64 @@
+body{
+    background: rgba(151, 171, 236, 0.671);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.card__content{
+    width: 500px;
+    box-shadow: 5px 5px 16px 0px #000;
+}
+.card__top{
+    width: 100%;
+}
+.card__bot{
+    background: rgb(233, 232, 232);
+    padding: 50px;
+}
+.input__activity{
+    position: relative;
+}
+.input__activity input{
+    background: rgb(134, 157, 233);
+    border: none;
+    padding: 15px;
+    width: 90%;
+    
+}
+.input__activity input::placeholder{
+    color: white;
+}
+.input__activity input:focus{
+    outline: none;
+}
+.input__activity button{
+    border: 3px solid rgb(69, 108, 236);
+    border-radius: 50%;
+    background: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input__activity button:focus{
+    outline: none;
+}
+.input__activity button i{
+    color: rgb(69, 108, 236);
+}
+.btnitem{
+    text-align: right;
+}
+hr{
+    border: 0.5px solid gray;
+    background: gray;
+}
+#trapezium {
+    height: 0;
+    width: 120px;
+    border-bottom: 120px solid #ec3504;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
